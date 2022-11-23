@@ -61,13 +61,18 @@ body{
     width: 5em;
     height: 2.3em;
     cursor: pointer;
-    background-color: rgba(255, 255, 255, 0.05);
+    background-color: rgb(23, 23, 23);
     color: rgb(255, 255, 255);
     border: 1px solid black;
     border-radius: 6px;
     margin-right: 10px;
     margin-top: 10px;
-    box-shadow: 1px 1px 6px rgb(0, 0, 0)
+    box-shadow: 1px 1px 6px rgb(0, 0, 0);
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    font-weight: 200;
 }
 
 .btn-cv:hover{
