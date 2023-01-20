@@ -353,11 +353,17 @@ body{
 
 @media (max-width: 700px){
     .main{
-        margin: 4em;
+        margin: 0em;
+        padding: 1.5em;
         width: 100%;
     }
     .home-img{
         display: none;
+    }
+    .home-p{
+        font-size: 1em;
+        font-weight: 400;
+        padding-right: 0;  
     }
     .p-about{
         font-size: 1.2em;
@@ -365,7 +371,7 @@ body{
         margin-right: 0;
     }
     .skills{
-       
+       width: 100%;
        padding: 0.5em 0 1em 1em;
     }
     .div-skills{
@@ -376,5 +382,10 @@ body{
         color: whitesmoke;
         margin: 1em;
         text-align: center;
+    }
+    .projects-div{ 
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
     }
 }
