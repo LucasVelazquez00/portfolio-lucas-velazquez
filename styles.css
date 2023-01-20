@@ -351,7 +351,7 @@ body{
 
 /* media query*/
 
-@media (max-width: 426px){
+@media (max-width: 500px){
     .icon{
     margin: 0em 0 0 0em;
     width: 7em;
@@ -399,14 +399,14 @@ body{
     }
 }
 
-@media (max-width: 950px){
+@media (max-width: 900px){
     .icon{
     margin: 0em 0 0 0em;
     width: 7em;
     position: fixed;
     top: 0;
     transition: 1.5s;
-    /* height: 2.5em; */
+
 }
     .main{
         margin: 0em;
